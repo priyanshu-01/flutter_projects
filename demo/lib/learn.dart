@@ -92,7 +92,7 @@ class _ContactRow extends State<ContactRow> {
               labelText: 'Contato',
             ),
           ),
-          new Text("Tipo Contato: "),
+          new Text("Content Type: "),
           new DropdownButton(
             value: _currentContactType,
             items: _dropDownMenuItems,

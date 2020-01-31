@@ -13,7 +13,7 @@ void main() => runApp(MyApp());
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Home1(
+      home: MyHomePage(
         //title: 'Flutter',
       ),
     );
